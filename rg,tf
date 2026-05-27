@@ -1,24 +1,10 @@
-# Azure Provider source and version being used
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "=4.7.0"
-    }
-  }
-}
-
-# Configure the Microsoft Azure Provider
-provider "azurerm" {
-  features {}
-
 #resouce group
   
-  resource "azurerm_resource_group" "rgs" {
-  name     = saini1
-  location = "eastus"
+  resource "azurerm_resource_group" "rgs3" {
+  name     = saini3
+  location = "westtus"
 }
-  resource "azurerm_resource_group" "rgs1" {
-  name     = saini2
-  location = "centralindia"
+  resource "azurerm_resource_group" "rgs4" {
+  name     = saini4
+  location = "northindia"
 }
