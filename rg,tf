@@ -16,5 +16,5 @@ provider "azurerm" {
   
   resource "azurerm_resource_group" "rgs" {
   name     = saini1
-  location = "centralindia"
+  location = "eastus"
 }
